@@ -13,7 +13,7 @@ const Login = () => {
   const [errors, setErrors] = useState({});
   const [serverError, setServerError] = useState("");
 
-  const API_URL = "http://localhost:4000/admin"; // Backend admin URL
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/admin"; // Backend admin URL
 
   const validate = () => {
     const newErrors = {};

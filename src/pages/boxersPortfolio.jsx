@@ -9,7 +9,7 @@ const ManageBoxers = () => {
   const [editingBoxer, setEditingBoxer] = useState(null);
 
   // Single variable for backend URL
-  const BACKEND_URL = "http://localhost:4000";
+  const BACKEND_URL = "https://rbfbackend-c00fb.sevalla.app/";
 
   // Fetch all boxers
   useEffect(() => {

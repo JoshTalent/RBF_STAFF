@@ -9,7 +9,7 @@ const Profile = () => {
 
   // Axios instance for backend requests
   const api = axios.create({
-    baseURL: "http://localhost:4000/", // Replace with your backend URL
+    baseURL: "https://rbfbackend-c00fb.sevalla.app/", // Replace with your backend URL
     headers: {
       Authorization: `Bearer ${localStorage.getItem("adminToken")}`,
     },

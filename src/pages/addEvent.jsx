@@ -29,7 +29,7 @@ const AddEvent = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/events",
+        "https://rbfbackend-c00fb.sevalla.app/events",
         formData
       );
 

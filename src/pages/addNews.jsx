@@ -15,7 +15,7 @@ const CreateNews = () => {
   const navigate = useNavigate();
 
   // Base API URL
-  const API_URL = "http://localhost:4000/news";
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/news";
 
   // Handle input changes
   const handleChange = (e) => {

@@ -11,7 +11,7 @@ const AddMatch = () => {
     video: null,
   });
 
-  const API_URL = "http://localhost:4000/matches/create"; // your backend route
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/matches/create"; // your backend route
 
   // Handle input changes
   const handleChange = (e) => {

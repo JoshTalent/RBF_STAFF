@@ -11,7 +11,7 @@ const AddPost = () => {
     image: null,
   });
 
-  const API_URL = "http://localhost:4000/post/";
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/post/";
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;

@@ -18,7 +18,7 @@ const AddBoxer = () => {
     twitter: "",
   });
 
-  const API_URL = "http://localhost:4000/boxers"; // backend route
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/boxers"; // backend route
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;

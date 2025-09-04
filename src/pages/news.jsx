@@ -8,7 +8,7 @@ const ManageNews = () => {
   const [newsList, setNewsList] = useState([]);
   const [editingNews, setEditingNews] = useState(null);
 
-  const API_URL = "http://localhost:4000/news";
+  const API_URL = "https://rbfbackend-c00fb.sevalla.app/news";
 
   // Fetch all news
   const fetchNews = async () => {

@@ -3,7 +3,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import { Trash2, Edit, X, ArrowLeft } from "lucide-react";
 
-const API_URL = "http://localhost:4000/events";
+const API_URL = "https://rbfbackend-c00fb.sevalla.app/events";
 
 const ManageEvents = () => {
   const [events, setEvents] = useState([]);
