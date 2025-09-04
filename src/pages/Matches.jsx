@@ -10,7 +10,7 @@ const ManageMatches = () => {
 
   // Base API URL
   const API_URL = "https://rbfbackend-c00fb.sevalla.app/matches";
-  const BACKEND_URL = "https://rbfbackend-c00fb.sevalla.app/"; // for serving videos
+  const BACKEND_URL = "https://rbfbackend-c00fb.sevalla.app"; // for serving videos
 
   // Fetch all matches from backend
   const fetchMatches = async () => {

@@ -9,7 +9,7 @@ const ManagePosts = () => {
   const [editingPost, setEditingPost] = useState(null);
 
   const API_URL = "https://rbfbackend-c00fb.sevalla.app/post";
-  const IMAGE_BASE_URL = "https://rbfbackend-c00fb.sevalla.app/"; // Use only the server base
+  const IMAGE_BASE_URL = "https://rbfbackend-c00fb.sevalla.app"; // Use only the server base
 
   // Fetch posts
   const fetchPosts = async () => {
