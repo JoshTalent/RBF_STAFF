@@ -116,7 +116,7 @@ const ManageNews = () => {
               >
                 {item.video && (
                   <video
-                    src={`http://localhost:4000${item.video}`}
+                    src={`https://rbfbackend-c00fb.sevalla.app${item.video}`}
                     controls
                     className="w-full h-48 object-cover rounded-2xl mb-4 shadow-lg"
                   />
