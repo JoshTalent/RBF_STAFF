@@ -56,7 +56,7 @@ const AddEvent = () => {
           {/* Back to Home */}
           <div className="mb-6">
             <Link
-              to="/"
+              to="/admin/home"
               className="inline-flex items-center px-5 py-2 bg-white text-gray-900 font-medium rounded-md shadow hover:bg-gray-100 transition-all"
             >
               <ArrowLeft className="w-5 h-5 mr-2 text-gray-900" />
