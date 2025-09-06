@@ -9,7 +9,7 @@ const ManageBoxers = () => {
   const [editingBoxer, setEditingBoxer] = useState(null);
 
   // Single variable for backend URL
-  const BACKEND_URL = "https://rbfbackend-c00fb.sevalla.app/";
+  const BACKEND_URL = "https://rbfbackend-c00fb.sevalla.app";
 
   // Fetch all boxers
   useEffect(() => {
@@ -94,7 +94,7 @@ const ManageBoxers = () => {
       <main className="flex-grow p-6 md:px-16 lg:px-24">
         <div className="mb-6">
           <Link
-            to="/"
+            to="/admin/home"
             className="inline-flex items-center px-5 py-2 bg-white text-gray-900 font-medium rounded-md shadow hover:bg-gray-100 transition-all"
           >
             <ArrowLeft className="w-5 h-5 mr-2 text-gray-900" />

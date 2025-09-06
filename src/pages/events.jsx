@@ -79,7 +79,7 @@ const ManageEvents = () => {
         <div className="mb-8">
           <ArrowLeft className="w-5 h-5 mr-2 text-gray-900" />
           <a
-            href="/"
+            href="/admin/home"
             className="inline-flex items-center px-5 py-2 bg-white text-gray-900 font-medium rounded-md shadow hover:bg-gray-100 transition-all"
           >
             Back to Home
